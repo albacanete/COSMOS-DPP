@@ -1,0 +1,12 @@
+syntax = "proto3";
+package albacg5.cosmosdpp.cosmosdpp;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/albacg5/COSMOS-DPP/x/cosmosdpp/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
